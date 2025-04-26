@@ -1,0 +1,39 @@
+{
+    "version": 1,
+    "workspace": {
+        "name": "DHCP",
+        "created": "2025-04-26T16:43:25.270Z",
+        "modified": "2025-04-26T16:58:36.135Z",
+        "timeRange": "FiveMinutes",
+        "isCluster": false
+    },
+    "counters": [
+        {
+            "object": "DHCP Server",
+            "counters": [
+                "Acks/sec",
+                "Offers/sec",
+                "Requests/sec",
+                "Discovers/sec"
+            ],
+            "type": "Line"
+        },
+        {
+            "object": "DHCP Server",
+            "counters": [
+                "Failover: BndUpd sent/sec.",
+                "Failover: BndUpd received/sec."
+            ],
+            "type": "Line"
+        },
+        {
+            "object": "DHCP Server",
+            "counters": [
+                "Nacks/sec",
+                "Declines/sec",
+                "Duplicates Dropped/sec"
+            ],
+            "type": "Line"
+        }
+    ]
+}
