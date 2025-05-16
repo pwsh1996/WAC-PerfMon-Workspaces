@@ -1,0 +1,36 @@
+{
+    "version": 1,
+    "workspace": {
+        "name": "General Errors",
+        "created": "2025-05-16T10:52:55.980Z",
+        "modified": "2025-05-16T10:55:36.884Z",
+        "timeRange": "FiveMinutes",
+        "isCluster": false
+    },
+    "counters": [
+        {
+            "object": "Network Interface",
+            "instances": [
+                {
+                    "instanceName": "Microsoft Hyper-V Network Adapter"
+                }
+            ],
+            "counters": [
+                "Packets Received Errors",
+                "Packets Received Discarded",
+                "Packets Outbound Errors",
+                "Packets Outbound Discarded"
+            ],
+            "type": "Line"
+        },
+        {
+            "object": "WFPv4",
+            "counters": [
+                "Packets Discarded/sec",
+                "Inbound Connections Blocked/sec",
+                "Outbound Connections Blocked/sec"
+            ],
+            "type": "Line"
+        }
+    ]
+}
