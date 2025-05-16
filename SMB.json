@@ -1,0 +1,66 @@
+{
+    "version": 1,
+    "workspace": {
+        "name": "SMB",
+        "created": "2025-05-16T10:47:49.686Z",
+        "modified": "2025-05-16T10:51:18.082Z",
+        "timeRange": "FiveMinutes",
+        "isCluster": false
+    },
+    "counters": [
+        {
+            "object": "SMB Server Shares",
+            "instances": [
+                {
+                    "instanceName": "_Total"
+                },
+                {
+                    "instanceName": "\\\\*\\ADMIN$"
+                },
+                {
+                    "instanceName": "\\\\*\\C$"
+                },
+                {
+                    "instanceName": "\\\\*\\IPC$"
+                },
+                {
+                    "instanceName": "\\\\*\\NETLOGON"
+                },
+                {
+                    "instanceName": "\\\\*\\SYSVOL"
+                }
+            ],
+            "counters": [
+                "Data Bytes/sec"
+            ],
+            "type": "Line"
+        },
+        {
+            "object": "SMB Server Shares",
+            "instances": [
+                {
+                    "instanceName": "_Total"
+                },
+                {
+                    "instanceName": "\\\\*\\ADMIN$"
+                },
+                {
+                    "instanceName": "\\\\*\\C$"
+                },
+                {
+                    "instanceName": "\\\\*\\IPC$"
+                },
+                {
+                    "instanceName": "\\\\*\\NETLOGON"
+                },
+                {
+                    "instanceName": "\\\\*\\SYSVOL"
+                }
+            ],
+            "counters": [
+                "Total File Open Count"
+            ],
+            "type": "Line"
+        }
+    ]
+}

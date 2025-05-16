@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "workspace": {
+        "name": "DNS",
+        "created": "2025-05-16T09:48:45.443Z",
+        "modified": "2025-05-16T09:58:43.311Z",
+        "timeRange": "FiveMinutes",
+        "isCluster": false
+    },
+    "counters": [
+        {
+            "object": "DNS",
+            "counters": [
+                "Total Query Received/sec",
+                "Total Response Sent/sec"
+            ],
+            "type": "Line"
+        },
+        {
+            "object": "DNS",
+            "counters": [
+                "UDP Query Received/sec",
+                "TCP Query Received/sec"
+            ],
+            "type": "Line"
+        },
+        {
+            "object": "DNS",
+            "counters": [
+                "Caching Memory"
+            ],
+            "type": "Line"
+        }
+    ]
+}
